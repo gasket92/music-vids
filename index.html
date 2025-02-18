@@ -3,91 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Music Picks</title>
+    <title>Music Video Collection</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; }
-        h2 { color: #333; }
-        .genre { font-weight: bold; margin-top: 20px; }
-        .video-container { margin-bottom: 20px; background: #fff; padding: 15px; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); }
-        iframe { display: block; width: 100%; height: 315px; border: none; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .video {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+        .comment {
+            font-style: italic;
+            color: #555;
+        }
     </style>
 </head>
 <body>
-    <h1>My Music Picks</h1>
+    <div class="container">
+        <h2>Genre: Pop Punk</h2>
+        <p>Pop punk is a rock music genre that combines punk rock with pop and power pop. It's known for its fast pace, energetic sound, and relatable lyrics. Not really metal but worth a mention.</p>
+        <div class="video">
+            <h3>City Lights - Hang Out</h3>
+            <iframe src="https://www.youtube.com/embed/MIX0kER8G_8?si=4t3qUqXwAvFpB9tl" allowfullscreen></iframe>
+            <p class="comment">I was a big fan of these guys back in the day.</p>
+        </div>
 
-    <div class="genre">Pop Punk</div>
-    <p>Pop punk is a rock music genre that combines punk rock with pop and power pop...</p>
-    <div class="video-container">
-        <h2>City Lights - Hang Out</h2>
-        <iframe src="https://www.youtube.com/embed/MIX0kER8G_8" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> I was a big fan of these guys back in the day.</p>
-    </div>
-    
-    <div class="genre">Easycore</div>
-    <p>Easycore is essentially pop punk that incorporates elements of metalcore...</p>
-    <div class="video-container">
-        <h2>Abandoned By Bears - Heads or Tails</h2>
-        <iframe src="https://www.youtube.com/embed/MCDXvmQzi-A" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> The breakdown from 02:40 til the end is a good example.</p>
-    </div>
-    <div class="video-container">
-        <h2>A Day To Remember - The Downfall of Us All</h2>
-        <iframe src="https://www.youtube.com/embed/CN4IIgFz93k" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> A Day to Remember are one of the most famous and popular bands...</p>
-    </div>
+        <h2>Genre: Easycore</h2>
+        <p>Easycore is essentially pop punk that incorporates elements of metalcore, such as breakdowns (I live for breakdowns, I'll point those out) and screaming vocals, while maintaining a catchy and melodic sound.</p>
+        <div class="video">
+            <h3>Abandoned By Bears - Heads or Tails</h3>
+            <iframe src="https://www.youtube.com/embed/MCDXvmQzi-A?si=LQlagGDbO_CazElF5" allowfullscreen></iframe>
+            <p class="comment">The breakdown from 02:40 til the end is a good example.</p>
+        </div>
+        <div class="video">
+            <h3>A Day To Remember - The Downfall of Us All</h3>
+            <iframe src="https://www.youtube.com/embed/CN4IIgFz93k?si=TY0qVxos8REq0ugV" allowfullscreen></iframe>
+            <p class="comment">A Day to Remember are one of the most famous and popular bands that do this sort of music but over their career their style has changed a bit.</p>
+        </div>
 
-    <div class="genre">Post-Hardcore</div>
-    <p>Lots of melody and harmony, usually high-pitched singing...</p>
-    <div class="video-container">
-        <h2>Broadway - Last Saturday</h2>
-        <iframe src="https://www.youtube.com/embed/9pJZqz9HOXU" allowfullscreen></iframe>
-    </div>
-    <div class="video-container">
-        <h2>A Skylit Drive - Your Mistake</h2>
-        <iframe src="https://www.youtube.com/embed/xTeGPQl4Y9w" allowfullscreen></iframe>
-    </div>
-    <div class="video-container">
-        <h2>The Words We Use - Silver Spoon</h2>
-        <iframe src="https://www.youtube.com/embed/gAlUZFaTrpE" allowfullscreen></iframe>
-    </div>
+        <h2>Genre: Post-Hardcore</h2>
+        <p>Lots of melody and harmony, usually high-pitched singing but with sections that are aggressive with screaming.</p>
+        <div class="video">
+            <h3>Broadway - Last Saturday</h3>
+            <iframe src="https://www.youtube.com/embed/9pJZqz9HOXU?si=YJk0MyiOgUk-_pL1" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>A Skylit Drive - Your Mistake</h3>
+            <iframe src="https://www.youtube.com/embed/xTeGPQl4Y9w?si=HPCkh4P7KgcxrjGn" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>The Words We Use - Silver Spoon</h3>
+            <iframe src="https://www.youtube.com/embed/gAlUZFaTrpE?si=5RH3oUNt87v8315q" allowfullscreen></iframe>
+        </div>
 
-    <div class="genre">Metalcore</div>
-    <p>Metalcore is a fusion genre combining extreme metal and hardcore punk...</p>
-    <div class="video-container">
-        <h2>Parkway Drive - Pandora</h2>
-        <iframe src="https://www.youtube.com/embed/3McKCJ_O198" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> This was my favourite song for a long time...</p>
-    </div>
-    <div class="video-container">
-        <h2>Miss May I - A Dance With Aera Cura</h2>
-        <iframe src="https://www.youtube.com/embed/h_ICd7_307w" allowfullscreen></iframe>
-    </div>
+        <h2>Genre: Metalcore</h2>
+        <p>Metalcore is a fusion genre combining extreme metal and hardcore punk, characterized by breakdowns, heavy riffs, double bass drumming, and often a mix of screamed and clean vocals.</p>
+        <div class="video">
+            <h3>Parkway Drive - Pandora</h3>
+            <iframe src="https://www.youtube.com/embed/3McKCJ_O198?si=nP1pKVm0zyKo_4-d" allowfullscreen></iframe>
+            <p class="comment">This was my favourite song for a long time. Parkway Drive were my favourite band in my late teens. They're actually massive now. Breakdown at 02:55.</p>
+        </div>
 
-    <div class="genre">Deathcore</div>
-    <p>Deathcore combines death metal with metalcore...</p>
-    <div class="video-container">
-        <h2>Signs of the Swarm - Nightcrawler</h2>
-        <iframe src="https://www.youtube.com/embed/m2BDZYH0MQ4" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> Breakdown at 01:46 with some disgusting vocals.</p>
-    </div>
-    <div class="video-container">
-        <h2>Signs of the Swarm - Nightcrawler</h2>
-        <iframe src="https://www.youtube.com/embed/s2mnUa_Fz0U" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> Section at 02:00-03:00 went a bit viral...</p>
-    </div>
-    <div class="video-container">
-        <h2>Peacemaker FL - Cease To Exist</h2>
-        <iframe src="https://www.youtube.com/embed/uqHLLbV0oRs" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> These guys are a modern band doing Deathcore like it used to be.</p>
-    </div>
+        <h2>Genre: Deathcore</h2>
+        <p>Deathcore combines death metal with metalcore. The vocalist is often what sets a band apart in this genre. It's a competition to see who can make the most gnarly, horrible sounds. Almost never any clean singing.</p>
+        <div class="video">
+            <h3>Signs of the Swarm - Nightcrawler</h3>
+            <iframe src="https://www.youtube.com/embed/m2BDZYH0MQ4?si=JjtpQvAD4-iBTRL6" allowfullscreen></iframe>
+            <p class="comment">Breakdown at 01:46 with some disgusting vocals.</p>
+        </div>
+        <div class="video">
+            <h3>Peacemaker FL - Cease To Exist</h3>
+            <iframe src="https://www.youtube.com/embed/uqHLLbV0oRs?si=Yxl06Af_NfU1L2-a" allowfullscreen></iframe>
+            <p class="comment">These guys are a modern band doing Deathcore like it used to be in the 00s (the glory days).</p>
+        </div>
 
-    <div class="genre">Slam</div>
-    <p>Slam death metal is a subgenre of death metal...</p>
-    <div class="video-container">
-        <h2>Desoectomy - Dumptruck Disembodiment</h2>
-        <iframe src="https://www.youtube.com/embed/Kop7jd2oz_s" allowfullscreen></iframe>
-        <p><strong>Comment:</strong> That riff at 0:47 is basically all slam songs ever. Iconic.</p>
+        <h2>Genre: Slam</h2>
+        <p>Slam death metal is a subgenre of death metal known for its heavy, low-tuned sound and intense breakdowns. Vocals are usually just gurgly noises, quite one-dimensional in a way.</p>
+        <div class="video">
+            <h3>Desoectomy - Dumptruck Disembodiment</h3>
+            <iframe src="https://www.youtube.com/embed/Kop7jd2oz_s?si=noNd-on4MYbvEnpn" allowfullscreen></iframe>
+            <p class="comment">That riff at 0:47 is basically all slam songs ever. Iconic.</p>
+        </div>
     </div>
-
 </body>
 </html>
