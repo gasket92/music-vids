@@ -10,6 +10,20 @@
             margin: 20px;
             padding: 20px;
             background-color: #f4f4f4;
+            position: relative;
+        }
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            background: #1c3faa;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .top-right a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
         }
         .container {
             max-width: 800px;
@@ -39,9 +53,65 @@
             font-style: italic;
             color: #555;
         }
+        /* Scrolling logo section */
+        .logo-container {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            background: #e0e0e0;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .logo-track {
+            display: inline-block;
+            white-space: nowrap;
+            animation: scrollLogos 15s linear infinite;
+        }
+        .logo-track img {
+            height: 50px;
+            margin: 0 15px;
+            vertical-align: middle;
+        }
+        @keyframes scrollLogos {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
     </style>
 </head>
 <body>
+
+    <!-- Link to second page -->
+    <div class="top-right">
+        <a href="https://gasket92.github.io/music-vids/index2" target="_blank">More Music Videos</a>
+    </div>
+
+    <!-- Scrolling logos -->
+    <div class="logo-container">
+        <div class="logo-track">
+            <img src="https://via.placeholder.com/100x50?text=Logo1" alt="Logo 1">
+            <img src="https://via.placeholder.com/100x50?text=Logo2" alt="Logo 2">
+            <img src="https://via.placeholder.com/100x50?text=Logo3" alt="Logo 3">
+            <img src="https://via.placeholder.com/100x50?text=Logo4" alt="Logo 4">
+            <img src="https://via.placeholder.com/100x50?text=Logo5" alt="Logo 5">
+            <img src="https://via.placeholder.com/100x50?text=Logo6" alt="Logo 6">
+            <img src="https://via.placeholder.com/100x50?text=Logo7" alt="Logo 7">
+            <img src="https://via.placeholder.com/100x50?text=Logo8" alt="Logo 8">
+            <img src="https://via.placeholder.com/100x50?text=Logo9" alt="Logo 9">
+            <img src="https://via.placeholder.com/100x50?text=Logo10" alt="Logo 10">
+            <img src="https://via.placeholder.com/100x50?text=Logo11" alt="Logo 11">
+            <img src="https://via.placeholder.com/100x50?text=Logo12" alt="Logo 12">
+            <img src="https://via.placeholder.com/100x50?text=Logo13" alt="Logo 13">
+            <img src="https://via.placeholder.com/100x50?text=Logo14" alt="Logo 14">
+            <img src="https://via.placeholder.com/100x50?text=Logo15" alt="Logo 15">
+            <img src="https://via.placeholder.com/100x50?text=Logo16" alt="Logo 16">
+            <img src="https://via.placeholder.com/100x50?text=Logo17" alt="Logo 17">
+            <img src="https://via.placeholder.com/100x50?text=Logo18" alt="Logo 18">
+            <img src="https://via.placeholder.com/100x50?text=Logo19" alt="Logo 19">
+            <img src="https://via.placeholder.com/100x50?text=Logo20" alt="Logo 20">
+        </div>
+    </div>
+
     <div class="container">
         <h2>Genre: Pop Punk</h2>
         <p>Pop punk is a rock music genre that combines punk rock with pop and power pop. It's known for its fast pace, energetic sound, and relatable lyrics. Not really metal but worth a mention.</p>
@@ -74,43 +144,7 @@
             <h3>A Skylit Drive - Your Mistake</h3>
             <iframe src="https://www.youtube.com/embed/xTeGPQl4Y9w?si=HPCkh4P7KgcxrjGn" allowfullscreen></iframe>
         </div>
-        <div class="video">
-            <h3>The Words We Use - Silver Spoon</h3>
-            <iframe src="https://www.youtube.com/embed/gAlUZFaTrpE?si=5RH3oUNt87v8315q" allowfullscreen></iframe>
-        </div>
-
-        <h2>Genre: Metalcore</h2>
-        <p>Metalcore is a fusion genre combining extreme metal and hardcore punk, characterized by breakdowns, heavy riffs, double bass drumming, and often a mix of screamed and clean vocals.</p>
-        <div class="video">
-            <h3>Parkway Drive - Pandora</h3>
-            <iframe src="https://www.youtube.com/embed/3McKCJ_O198?si=nP1pKVm0zyKo_4-d" allowfullscreen></iframe>
-            <p class="comment">This was my favourite song for a long time. Parkway Drive were my favourite band in my late teens. They're actually massive now. Breakdown at 02:55.</p>
-        </div>
-        <div class="video">
-            <h3>Miss May I - A Dance With Aera Cura</h3>
-            <iframe src="https://www.youtube.com/embed/h_ICd7_307w?si=FpXM2SEy8A0IztF5" allowfullscreen></iframe>
-        </div>
-
-        <h2>Genre: Deathcore</h2>
-        <p>Deathcore combines death metal with metalcore. The vocalist is often what sets a band apart in this genre. It's a competition to see who can make the most gnarly, horrible sounds. Almost never any clean singing.</p>
-        <div class="video">
-            <h3>Signs of the Swarm - Nightcrawler</h3>
-            <iframe src="https://www.youtube.com/embed/m2BDZYH0MQ4?si=JjtpQvAD4-iBTRL6" allowfullscreen></iframe>
-            <p class="comment">Breakdown at 01:46 with some disgusting vocals.</p>
-        </div>
-        <div class="video">
-            <h3>Peacemaker FL - Cease To Exist</h3>
-            <iframe src="https://www.youtube.com/embed/uqHLLbV0oRs?si=Yxl06Af_NfU1L2-a" allowfullscreen></iframe>
-            <p class="comment">These guys are a modern band doing Deathcore like it used to be in the 00s (the glory days).</p>
-        </div>
-
-        <h2>Genre: Slam</h2>
-        <p>Slam death metal is a subgenre of death metal known for its heavy, low-tuned sound and intense breakdowns. Vocals are usually just gurgly noises, quite one-dimensional in a way.</p>
-        <div class="video">
-            <h3>Desoectomy - Dumptruck Disembodiment</h3>
-            <iframe src="https://www.youtube.com/embed/Kop7jd2oz_s?si=noNd-on4MYbvEnpn" allowfullscreen></iframe>
-            <p class="comment">That riff at 0:47 is basically all slam songs ever. Iconic.</p>
-        </div>
     </div>
+
 </body>
 </html>
