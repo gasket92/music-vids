@@ -10,21 +10,6 @@
             margin: 20px;
             padding: 20px;
             background-color: #f4f4f4;
-            position: relative;
-        }
-        .top-right {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            background: #1c3faa;
-            padding: 10px 15px;
-            border-radius: 5px;
-            z-index: 10;
-        }
-        .top-right a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
         }
         .container {
             max-width: 800px;
@@ -54,77 +39,9 @@
             font-style: italic;
             color: #555;
         }
-        
-        /* Scrolling logo section */
-        .logo-container {
-            width: 100%;
-            overflow: hidden;
-            position: relative;
-            margin-bottom: 20px;
-        }
-        .logo-track {
-            display: flex;
-            gap: 0; /* No gaps between images */
-            animation: scrollLogos 25s linear infinite; /* Slower speed */
-            width: max-content;
-        }
-        .logo-track img {
-            height: 50px;
-            flex-shrink: 0;
-        }
-        
-        @keyframes scrollLogos {
-            from { transform: translateX(0); }
-            to { transform: translateX(-50%); }
-        }
     </style>
 </head>
 <body>
-
-    <!-- Link to second page -->
-    <div class="top-right">
-        <a href="https://gasket92.github.io/music-vids/index2" target="_blank">More Music Videos</a>
-    </div>
-
-    <!-- Scrolling logos -->
-    <div class="logo-container">
-        <div class="logo-track">
-            <!-- Logos repeat twice to create smooth loop -->
-            <img src="https://via.placeholder.com/100x50?text=Logo1" alt="Logo 1">
-            <img src="https://via.placeholder.com/100x50?text=Logo2" alt="Logo 2">
-            <img src="https://via.placeholder.com/100x50?text=Logo3" alt="Logo 3">
-            <img src="https://via.placeholder.com/100x50?text=Logo4" alt="Logo 4">
-            <img src="https://via.placeholder.com/100x50?text=Logo5" alt="Logo 5">
-            <img src="https://via.placeholder.com/100x50?text=Logo6" alt="Logo 6">
-            <img src="https://via.placeholder.com/100x50?text=Logo7" alt="Logo 7">
-            <img src="https://via.placeholder.com/100x50?text=Logo8" alt="Logo 8">
-            <img src="https://via.placeholder.com/100x50?text=Logo9" alt="Logo 9">
-            <img src="https://via.placeholder.com/100x50?text=Logo10" alt="Logo 10">
-            <img src="https://via.placeholder.com/100x50?text=Logo11" alt="Logo 11">
-            <img src="https://via.placeholder.com/100x50?text=Logo12" alt="Logo 12">
-            <img src="https://via.placeholder.com/100x50?text=Logo13" alt="Logo 13">
-            <img src="https://via.placeholder.com/100x50?text=Logo14" alt="Logo 14">
-            <img src="https://via.placeholder.com/100x50?text=Logo15" alt="Logo 15">
-            <img src="https://via.placeholder.com/100x50?text=Logo16" alt="Logo 16">
-            <img src="https://via.placeholder.com/100x50?text=Logo17" alt="Logo 17">
-            <img src="https://via.placeholder.com/100x50?text=Logo18" alt="Logo 18">
-            <img src="https://via.placeholder.com/100x50?text=Logo19" alt="Logo 19">
-            <img src="https://via.placeholder.com/100x50?text=Logo20" alt="Logo 20">
-
-            <!-- Duplicate logos for smooth transition -->
-            <img src="https://via.placeholder.com/100x50?text=Logo1" alt="Logo 1">
-            <img src="https://via.placeholder.com/100x50?text=Logo2" alt="Logo 2">
-            <img src="https://via.placeholder.com/100x50?text=Logo3" alt="Logo 3">
-            <img src="https://via.placeholder.com/100x50?text=Logo4" alt="Logo 4">
-            <img src="https://via.placeholder.com/100x50?text=Logo5" alt="Logo 5">
-            <img src="https://via.placeholder.com/100x50?text=Logo6" alt="Logo 6">
-            <img src="https://via.placeholder.com/100x50?text=Logo7" alt="Logo 7">
-            <img src="https://via.placeholder.com/100x50?text=Logo8" alt="Logo 8">
-            <img src="https://via.placeholder.com/100x50?text=Logo9" alt="Logo 9">
-            <img src="https://via.placeholder.com/100x50?text=Logo10" alt="Logo 10">
-        </div>
-    </div>
-
     <div class="container">
         <h2>Genre: Pop Punk</h2>
         <p>Pop punk is a rock music genre that combines punk rock with pop and power pop. It's known for its fast pace, energetic sound, and relatable lyrics. Not really metal but worth a mention.</p>
@@ -133,7 +50,67 @@
             <iframe src="https://www.youtube.com/embed/MIX0kER8G_8?si=4t3qUqXwAvFpB9tl" allowfullscreen></iframe>
             <p class="comment">I was a big fan of these guys back in the day.</p>
         </div>
-    </div>
 
+        <h2>Genre: Easycore</h2>
+        <p>Easycore is essentially pop punk that incorporates elements of metalcore, such as breakdowns (I live for breakdowns, I'll point those out) and screaming vocals, while maintaining a catchy and melodic sound.</p>
+        <div class="video">
+            <h3>Abandoned By Bears - Heads or Tails</h3>
+            <iframe src="https://www.youtube.com/embed/MCDXvmQzi-A?si=LQlagGDbO_CazElF5" allowfullscreen></iframe>
+            <p class="comment">The breakdown from 02:40 til the end is a good example.</p>
+        </div>
+        <div class="video">
+            <h3>A Day To Remember - The Downfall of Us All</h3>
+            <iframe src="https://www.youtube.com/embed/CN4IIgFz93k?si=TY0qVxos8REq0ugV" allowfullscreen></iframe>
+            <p class="comment">A Day to Remember are one of the most famous and popular bands that do this sort of music but over their career their style has changed a bit.</p>
+        </div>
+
+        <h2>Genre: Post-Hardcore</h2>
+        <p>Lots of melody and harmony, usually high-pitched singing but with sections that are aggressive with screaming.</p>
+        <div class="video">
+            <h3>Broadway - Last Saturday</h3>
+            <iframe src="https://www.youtube.com/embed/9pJZqz9HOXU?si=YJk0MyiOgUk-_pL1" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>A Skylit Drive - Your Mistake</h3>
+            <iframe src="https://www.youtube.com/embed/xTeGPQl4Y9w?si=HPCkh4P7KgcxrjGn" allowfullscreen></iframe>
+        </div>
+        <div class="video">
+            <h3>The Words We Use - Silver Spoon</h3>
+            <iframe src="https://www.youtube.com/embed/gAlUZFaTrpE?si=5RH3oUNt87v8315q" allowfullscreen></iframe>
+        </div>
+
+        <h2>Genre: Metalcore</h2>
+        <p>Metalcore is a fusion genre combining extreme metal and hardcore punk, characterized by breakdowns, heavy riffs, double bass drumming, and often a mix of screamed and clean vocals.</p>
+        <div class="video">
+            <h3>Parkway Drive - Pandora</h3>
+            <iframe src="https://www.youtube.com/embed/3McKCJ_O198?si=nP1pKVm0zyKo_4-d" allowfullscreen></iframe>
+            <p class="comment">This was my favourite song for a long time. Parkway Drive were my favourite band in my late teens. They're actually massive now. Breakdown at 02:55.</p>
+        </div>
+        <div class="video">
+            <h3>Miss May I - A Dance With Aera Cura</h3>
+            <iframe src="https://www.youtube.com/embed/h_ICd7_307w?si=FpXM2SEy8A0IztF5" allowfullscreen></iframe>
+        </div>
+
+        <h2>Genre: Deathcore</h2>
+        <p>Deathcore combines death metal with metalcore. The vocalist is often what sets a band apart in this genre. It's a competition to see who can make the most gnarly, horrible sounds. Almost never any clean singing.</p>
+        <div class="video">
+            <h3>Signs of the Swarm - Nightcrawler</h3>
+            <iframe src="https://www.youtube.com/embed/m2BDZYH0MQ4?si=JjtpQvAD4-iBTRL6" allowfullscreen></iframe>
+            <p class="comment">Breakdown at 01:46 with some disgusting vocals.</p>
+        </div>
+        <div class="video">
+            <h3>Peacemaker FL - Cease To Exist</h3>
+            <iframe src="https://www.youtube.com/embed/uqHLLbV0oRs?si=Yxl06Af_NfU1L2-a" allowfullscreen></iframe>
+            <p class="comment">These guys are a modern band doing Deathcore like it used to be in the 00s (the glory days).</p>
+        </div>
+
+        <h2>Genre: Slam</h2>
+        <p>Slam death metal is a subgenre of death metal known for its heavy, low-tuned sound and intense breakdowns. Vocals are usually just gurgly noises, quite one-dimensional in a way.</p>
+        <div class="video">
+            <h3>Desoectomy - Dumptruck Disembodiment</h3>
+            <iframe src="https://www.youtube.com/embed/Kop7jd2oz_s?si=noNd-on4MYbvEnpn" allowfullscreen></iframe>
+            <p class="comment">That riff at 0:47 is basically all slam songs ever. Iconic.</p>
+        </div>
+    </div>
 </body>
 </html>
